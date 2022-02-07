@@ -1,0 +1,59 @@
+/*logo*/
+header {
+    margin: 40px 20px 30px;
+}
+/*main styles*/
+.contents {
+    display: block;
+}
+.left-content, .right-content  {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    margin: 0 20px;
+}
+.left-content {
+    height: 50%;
+}
+/*Style for links*/
+.link {
+    margin-bottom: 10px;
+}
+ul li:nth-child(2) {
+    display: none;
+}
+a:hover {
+    background-color: transparent;
+}
+/*Style for buttons*/
+input[type="submit"] {
+    display: block;
+    width: 290px;
+    font-size: 16px;
+}
+#send-one {
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+#send-two {
+    margin-bottom: 30px;
+}
+/*Style for selectors*/
+.send-form {
+    margin-top: 0;
+    order: 1;
+}
+.item-body {
+    position: relative;
+}
+.items-two {
+    margin-bottom: 20px;
+}
+/*Style for checkbox and radio buttons*/
+.check-radio-box {
+    display: block;
+    width: 260px;
+    height: 110px;
+    left: 30px;
+    order: 2;
+}

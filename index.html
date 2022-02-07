@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--RESPONSIVE-->
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test</title>
+	<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css">
+	<link rel="stylesheet" href="styles/style.css" type="text/css">
+	<link rel="stylesheet" href="styles/tablet_style.css" type="text/css" media="screen and (max-width: 768px)">
+	<link rel="stylesheet" href="styles/mobile_style.css" type="text/css" media="screen and (max-width: 320px)">
+</head>
+<body>
+	<header>
+		<span>h6:</span><b>Links and form elements</b>
+	</header>
+	<div class="content">
+		<div class="contents">
+			<!--Left Content-->
+			<div class="left-content">
+				<!--links-->
+				<div class="link">
+					<ul>
+						<li><a href="#1">Default link</a></li>
+						<li><a href="#2">Hovered link</a></li>
+						<li><a href="#3">Acive link</a></li>
+						<li><a href="#4">Visited link</a></li>
+					</ul>
+				</div>
+				<!--Selectors-->
+				<div class="items items-one">
+					<div class="item-header">
+						<span class="select-current">No selected element</span>
+						<div class="icon">&times;</div>
+					</div>
+					<div class="item-body">
+						<div class="select-item">First item</div>
+						<div class="select-item">Second item</div>
+						<div class="select-item">Hovered item</div>
+					</div>
+				</div>
+				<div class="items items-two">
+					<div class="item-header">
+						<span class="select-current">No selected element</span>
+						<div class="icon">&times;</div>
+					</div>
+					<div class="item-body">
+						<div class="select-item">First item</div>
+						<div class="select-item">Second item</div>
+						<div class="select-item">Hovered item</div>
+					</div>
+				</div>
+			</div>
+			<!--Right Content-->
+			<div class="right-content">
+				<form class="checker" action="#" method="POST">
+					<div class="check-radio-box">
+						<!--CheckBox-->
+						<div class="check-box">						
+							<label for="check-one">
+								<input type="checkbox" id="check-one" name="check-one">
+								<span class="check-style"></span>
+								Default
+							</label>						
+							<label for="check-two">
+								<input type="checkbox" id="check-two" name="check-two" checked>
+								<span class="check-style"></span>
+								Checked
+							</label>						
+							<label for="check-three">
+								<input type="checkbox" id="check-three" name="check-three" disabled>
+								<span class="check-style"></span>
+								Disabled
+							</label>
+						</div>
+						<!--Radio Buttons-->
+						<div class="radio">						
+							<label for="radio-one">
+								<input type="radio" id="radio-one" name="radio" value="Default">
+								<span class="radio-style"></span>
+								Default
+							</label>						
+							<label for="radio-two">
+								<input type="radio" id="radio-two" name="radio" value="Checked" checked>
+								<span class="radio-style"></span>
+								Checked
+							</label>						
+							<label for="radio-three">
+								<input type="radio" id="radio-three" name="radio" value="Disabled" disabled>
+								<span class="radio-style"></span>
+								Disabled
+							</label>
+						</div>
+					</div>
+					<div class="send-form">
+						<!--Selector-->
+						<div class="items items-three">
+							<div class="item-header">
+								<span class="select-current">No selected element</span>
+								<div class="icon">&times;</div>
+							</div>
+							<div class="item-body">
+								<div class="select-item">First item</div>
+								<div class="select-item">Second item</div>
+								<div class="select-item">Hovered item</div>
+							</div>
+						</div>
+						<input type="text" id="input-one" name="input-one" placeholder="Input">
+						<input type="text" id="input-two" name="input-two" placeholder="Input">						
+					</div>
+					<div class="buttons">
+						<input type="submit" id="send-one" name="send-one" value="Send">
+						<input type="submit" id="send-two" name="send-two" value="Send">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="scripts/script.js"></script>
+</body>
+</html>
